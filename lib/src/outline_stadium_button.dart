@@ -27,6 +27,7 @@ class OutlinedStadiumButton extends StatelessWidget {
       child: Text(
         label,
         style: TextStyle(
+          fontFamily: suit,
           fontSize: fontSize,
           fontWeight: FontWeight.bold,
         ),
