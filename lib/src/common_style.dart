@@ -62,23 +62,10 @@ class BtnStyle {
     );
   }
 
-  static ButtonStyle fullButton(double width, double height) {
-    return ButtonStyle(
-      fixedSize: MaterialStateProperty.all<Size>(Size(width, height)),
-      backgroundColor: setButtonColor(original: _sMint, pressed: _sNavy),
-      foregroundColor: MaterialStateProperty.all<Color>(_sWhite),
-      overlayColor: MaterialStateProperty.all<Color>(Colors.transparent),
-      elevation: MaterialStateProperty.all<double>(0.0),
-      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-          const RoundedRectangleBorder(borderRadius: BorderRadius.zero)),
-      tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-    );
-  }
-
-  static ButtonStyle halfButton({
+  static ButtonStyle squareButton({
     required double width,
     required double height,
-    required bool forLight,
+    bool forLight = false,
   }) {
     return ButtonStyle(
       fixedSize: MaterialStateProperty.all<Size>(Size(width, height)),

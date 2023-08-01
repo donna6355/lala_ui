@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 
 import './common_style.dart';
 
-class HalfSquareButton extends StatelessWidget {
-  const HalfSquareButton({
+class SquareButton extends StatelessWidget {
+  const SquareButton({
     required this.onPressed,
     required this.label,
-    this.width = 711.5,
+    this.width = 1424,
     this.height = 115,
-    this.forLight = true,
+    this.forLight = false,
     this.fontSize = 40,
     super.key,
   });
@@ -24,7 +24,7 @@ class HalfSquareButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: onPressed,
-      style: BtnStyle.halfButton(
+      style: BtnStyle.squareButton(
         forLight: forLight,
         width: width,
         height: height,

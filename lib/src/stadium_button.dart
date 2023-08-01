@@ -5,7 +5,6 @@ class StadiumButton extends StatelessWidget {
   const StadiumButton({
     required this.label,
     required this.onPressed,
-    this.forBig = false,
     this.width = 340,
     this.height = 100,
     this.fontSize = 40,
@@ -13,7 +12,6 @@ class StadiumButton extends StatelessWidget {
   });
   final String label;
   final void Function()? onPressed;
-  final bool forBig;
   final double width;
   final double height;
   final double fontSize;
