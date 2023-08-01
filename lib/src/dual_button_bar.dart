@@ -7,7 +7,7 @@ class DualButtonBar extends StatelessWidget {
     required this.rightLabel,
     required this.leftFunction,
     required this.rightFunction,
-    this.buttonWidth = 711.5,
+    this.buttonWidth = 574.5,
     this.buttonHeight = 115,
     this.fontSize = 40,
     super.key,
