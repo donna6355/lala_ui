@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import './extensions.dart';
 import './common_style.dart';
 
-class ClockWidget extends StatelessWidget {
-  const ClockWidget({
+class Clock extends StatelessWidget {
+  const Clock({
     this.fontSize = 28,
     this.fontWeight = FontWeight.w500,
     required this.color,

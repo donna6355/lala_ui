@@ -7,7 +7,6 @@ class DualButtonBar extends StatelessWidget {
     required this.rightLabel,
     required this.leftFunction,
     required this.rightFunction,
-    this.forSmallDialog = true,
     this.buttonWidth = 711.5,
     this.buttonHeight = 115,
     this.fontSize = 40,
@@ -18,7 +17,6 @@ class DualButtonBar extends StatelessWidget {
   final String rightLabel;
   final void Function()? leftFunction;
   final void Function()? rightFunction;
-  final bool forSmallDialog;
   final double buttonWidth;
   final double buttonHeight;
   final double fontSize;
