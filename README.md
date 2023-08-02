@@ -9,6 +9,13 @@ add font 'SUIT' in project pubspec.yaml
 ## Usage
 
 ```dart
+//To set fontFamily, add font files to pubspec.yaml and call this methods before runApp();
+void main() {
+  LalaBtnStyle.setFontfamily('GamjaFlower');
+  runApp(const MyApp());
+}
+
+
 Clock(color:Colors.black)
 //optional : fontSize, fontWeight
 

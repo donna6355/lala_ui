@@ -3,10 +3,16 @@ import 'package:flutter/material.dart';
 const Color _sMint = Color(0xff00C4B3);
 const Color _sNavy = Color(0xff071E3F);
 const Color _sWhite = Colors.white;
-const String suit = 'SUIT';
 
-class BtnStyle {
-  BtnStyle._();
+class LalaBtnStyle {
+  LalaBtnStyle._();
+  static String _font = 'SUIT';
+  static String get fontFamily => _font;
+
+  static void setFontfamily(String fontFamily) {
+    _font = fontFamily;
+  }
+
   static MaterialStateProperty<Color> setButtonColor({
     required Color original,
     required Color pressed,

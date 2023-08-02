@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './common_style.dart';
+import './lala_style.dart';
 
 class SquareButton extends StatelessWidget {
   const SquareButton({
@@ -24,7 +24,7 @@ class SquareButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: onPressed,
-      style: BtnStyle.squareButton(
+      style: LalaBtnStyle.squareButton(
         forLight: forLight,
         width: width,
         height: height,
@@ -33,7 +33,7 @@ class SquareButton extends StatelessWidget {
         child: Text(
           label,
           style: TextStyle(
-            fontFamily: suit,
+            fontFamily: LalaBtnStyle.fontFamily,
             fontSize: fontSize,
             fontWeight: FontWeight.bold,
           ),

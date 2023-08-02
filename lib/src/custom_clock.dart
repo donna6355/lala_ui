@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import './extensions.dart';
-import './common_style.dart';
+import './lala_style.dart';
 
 class Clock extends StatelessWidget {
   const Clock({
@@ -25,7 +25,7 @@ class Clock extends StatelessWidget {
             Text(
               '${time[0]} ${time[1]} ${time[2]}',
               style: TextStyle(
-                fontFamily: suit,
+                fontFamily: LalaBtnStyle.fontFamily,
                 fontSize: fontSize,
                 fontWeight: fontWeight,
                 color: color,

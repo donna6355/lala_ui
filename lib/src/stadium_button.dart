@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './common_style.dart';
+import './lala_style.dart';
 
 class StadiumButton extends StatelessWidget {
   const StadiumButton({
@@ -20,11 +20,11 @@ class StadiumButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: onPressed,
-      style: BtnStyle.roundedButton(width: width, height: height),
+      style: LalaBtnStyle.roundedButton(width: width, height: height),
       child: Text(
         label,
         style: TextStyle(
-          fontFamily: suit,
+          fontFamily: LalaBtnStyle.fontFamily,
           fontSize: fontSize,
           fontWeight: FontWeight.bold,
         ),
