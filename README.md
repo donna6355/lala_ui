@@ -9,9 +9,13 @@ add font 'SUIT' in project pubspec.yaml
 ## Usage
 
 ```dart
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
 //To set fontFamily, add font files to pubspec.yaml and call this methods before runApp();
-void main() {
+//default fontFamily is SUIT
   LalaBtnStyle.setFontfamily('GamjaFlower');
+  await DirHelper.init(machineId: 'machineId', folderName: 'lala_ui_test');
+
   runApp(const MyApp());
 }
 

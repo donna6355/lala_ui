@@ -6,6 +6,14 @@ extension TimeFormat on DateTime {
       '${(hour < 13 ? hour : hour - 12).toTwoDigit()}:${minute.toTwoDigit()}',
     ];
   }
+
+  String forLogData() {
+    return toString().substring(0, 19);
+  }
+
+  String forTitle() {
+    return toString().substring(0, 10);
+  }
 }
 
 extension NumFormat on int {

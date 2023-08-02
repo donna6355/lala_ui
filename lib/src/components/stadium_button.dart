@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './lala_style.dart';
+import '../core/lala_style.dart';
 
 class StadiumButton extends StatelessWidget {
   const StadiumButton({

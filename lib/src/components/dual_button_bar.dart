@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './square_button.dart';
+import 'square_button.dart';
 
 class DualButtonBar extends StatelessWidget {
   const DualButtonBar({

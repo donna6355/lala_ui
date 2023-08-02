@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import './extensions.dart';
-import './lala_style.dart';
+import '../../lala_ui.dart';
+import '../core/extensions.dart';
+import '../core/lala_style.dart';
 
 class Clock extends StatelessWidget {
   const Clock({
@@ -19,6 +20,7 @@ class Clock extends StatelessWidget {
       stream: Stream.periodic(const Duration(minutes: 1)),
       builder: (context, snapshot) {
         final DateTime now = DateTime.now();
+        if (now.toString().contains('23:59')) DirHelper.updateLogFile();
         List<String> time = now.forClock();
         return Column(
           children: [

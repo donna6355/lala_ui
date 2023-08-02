@@ -1,8 +1,10 @@
 library lala_ui;
 
-export './src/square_button.dart';
-export './src/dual_button_bar.dart';
-export './src/outline_stadium_button.dart';
-export './src/stadium_button.dart';
-export './src/custom_clock.dart';
-export './src/lala_style.dart';
+export 'src/components/square_button.dart';
+export 'src/components/dual_button_bar.dart';
+export 'src/components/outline_stadium_button.dart';
+export 'src/components/stadium_button.dart';
+export 'src/components/custom_clock.dart';
+export 'src/core/lala_style.dart';
+export 'src/logic/dir_helper.dart';
+export 'src/logic/log_handler.dart';
