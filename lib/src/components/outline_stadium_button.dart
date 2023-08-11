@@ -20,7 +20,7 @@ class OutlinedStadiumButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: onPressed,
-      style: LalaBtnStyle.outlinedRoundedButton(
+      style: LalaBtnStyle.outlinedStadiumButton(
         width: width,
         height: height,
       ),
