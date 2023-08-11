@@ -25,3 +25,15 @@ class DialogHeaderText extends StatelessWidget {
     );
   }
 }
+
+class DialogSubHeaderText extends StatelessWidget {
+  const DialogSubHeaderText(this.label, {super.key});
+  final String label;
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      label,
+      style: LalaCommonStyle.dialogSubHeader,
+    );
+  }
+}

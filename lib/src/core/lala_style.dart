@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 const Color _sMint = Color(0xff00C4B3);
 const Color _sNavy = Color(0xff071E3F);
+const Color _sFadeNavy = Color(0xFF3F5574);
 const Color _sWhite = Colors.white;
 const Color _sGray = Color(0xFFC4C4C4);
 
@@ -25,6 +26,20 @@ class LalaCommonStyle {
     fontFamily: LalaBtnStyle.fontFamily,
     fontWeight: FontWeight.w700,
     height: 1.5,
+  );
+  static TextStyle dialogSubHeader = TextStyle(
+    color: _sFadeNavy,
+    fontSize: 40,
+    fontFamily: LalaBtnStyle.fontFamily,
+    fontWeight: FontWeight.w700,
+    height: 1.5,
+  );
+  static TextStyle alert = TextStyle(
+    color: _sWhite,
+    fontSize: 36,
+    fontWeight: FontWeight.w500,
+    fontFamily: LalaBtnStyle.fontFamily,
+    height: 0.97,
   );
 }
 
