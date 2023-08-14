@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../lala_ui.dart';
 import '../core/extensions.dart';
-import '../core/lala_style.dart';
+import '../../lala_ui.dart';
 
 class Clock extends StatelessWidget {
   const Clock({
