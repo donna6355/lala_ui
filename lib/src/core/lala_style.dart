@@ -25,6 +25,7 @@ class LalaCommonStyle {
     fontSize: 50,
     fontFamily: LalaBtnStyle.fontFamily,
     fontWeight: FontWeight.w700,
+    decoration: TextDecoration.none,
     height: 1.5,
   );
   static TextStyle dialogSubHeader = TextStyle(
@@ -32,6 +33,7 @@ class LalaCommonStyle {
     fontSize: 40,
     fontFamily: LalaBtnStyle.fontFamily,
     fontWeight: FontWeight.w700,
+    decoration: TextDecoration.none,
     height: 1.5,
   );
   static TextStyle alert = TextStyle(
